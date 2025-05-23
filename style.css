@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.converter-container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 1rem;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.options {
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.result {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
